@@ -1,0 +1,11 @@
+# Выбор базового образа с Python
+FROM python:3.12-alpine
+
+# Установка рабочей директории
+WORKDIR /*botname*
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Запуск приложения
+CMD ["python", "main.py"]

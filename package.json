@@ -1,0 +1,19 @@
+{
+  "name": "botshub",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "KiraYagamov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "request": "^2.88.2"
+  }
+}
